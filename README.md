@@ -4,12 +4,12 @@
 
 Projeto simples de e-commerce feito com Python e Django. O e-commerce contém páginas de produtos, carrinho e perfil.
 
-# **>>>Configurando um ambiente virtual no VSCode<<<**
+#### **>>>Configurando um ambiente virtual no VSCode<<<**
 
 python -m venv env
 
-ctrl+shift+p
-'select interpreter' - Python: Select Interpreter
+ctrl+shift+p <br />
+'select interpreter' - Python: Select Interpreter <br />
 Selecione o python virtual que acabou de criar
 
 # **>>>Criando um projeto django<<<**
