@@ -9,33 +9,41 @@ Projeto simples de e-commerce feito com Python e Django. O e-commerce contém p�
 python -m venv env
 
 ctrl+shift+p <br />
+
 'select interpreter' - Python: Select Interpreter <br />
+
 Selecione o python virtual que acabou de criar
 
-# **>>>Criando um projeto django<<<**
+#### **>>>Criando um projeto django<<<**
 
 Projeto django é um conjunto de arquivos que são
 gerados automaticamente pelo django. Você pode
 acicionar vários aplicativos ao projeto.
 
-No terminal (env) digite:
-django-admin startproject mysite . 
-#Espaço e ponto significa a pasta atual.
+No terminal (env) digite: <br />
+
+django-admin startproject mysite . <br />
+
+**Espaço e ponto significa a pasta atual.** <br />
+
 Depois digite: python manage.py migrate
 
-# **>>>Criando um usuário administrador<<<**
+#### **>>>Criando um usuário administrador<<<**
 
-no terminal (env) digite:
-python manage.py createsuperuser
+no terminal (env) digite: <br />
 
-# **>>>Criando um app vazio<<<**
+python manage.py createsuperuser <br />
 
-No terminal (env) digite:
-python manage.py startapp blog #blog é o nome
+#### **>>>Criando um app vazio<<<**
+
+No terminal (env) digite: <br />
+
+python manage.py startapp blog **blog é o nome** <br />
+
 Em mysite.py/settings.py> installed_apps, adicione
 'blog'.
 
-# **>>>Arquitetura de um app web Django<<<**
+#### **>>>Arquitetura de um app web Django<<<**
 
 -Os arquivos modelos definem a estrutura da tabela do banco de
 dados.
@@ -49,23 +57,25 @@ Esta resposta pode ser o conteúdo HTML de uma página da Web.
 -Interface admnistrativa pode ser usada para executar operações de criação, 
 leitura, atualização e exclusão no modelo diretamente.
 
-# **>>>Processos para criar um app<<<**
+#### **>>>Processos para criar um app<<<**
 
-1- Criar HTML
-2- Configurar URL
-3- Criar views
-4- Criar modelos
-5- Conectar os processos
+1- Criar HTML <br />
+2- Configurar URL <br />
+3- Criar views <br />
+4- Criar modelos <br />
+5- Conectar os processos <br />
 
-# **>>>Criando estrutura vazia do app<<<**
+#### **>>>Criando estrutura vazia do app<<<**
 
-No terminal (env), digite:
-python manage.py startapp nomedoseuapp
+No terminal (env), digite: <br />
+
+python manage.py startapp nomedoseuapp <br />
 
 Em 'mysite/settings.py> INSTALLED_APPS', 
 adicione 'translator'.
 
-# **>>>Configurando URLs<<<**
+#### **>>>Configurando URLs<<<**
 
-Em 'mysite/urls.py' adicione:
+Em 'mysite/urls.py' adicione: <br />
+
 path('seuapp/', include('seuapp.urls'))
